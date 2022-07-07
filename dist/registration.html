@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html class="page">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>
+		Регистрация
+	</title>
+	<meta name="description" content="text">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body class="page-body">
+
+<div class="page-wrapper page-wrapper--100vh page-wrapper--inner">
+  <div class="page-bg page-bg--1 no-md xs"></div>
+  <div class="page-bg page-bg--2"></div>
+  <div class="page-bg page-bg--3"></div>
+  <div class="page-bg page-bg--4"></div>
+  <div class="page-bg page-bg--large page-bg--label"></div>
+
+  <a href="/" class="page-inner__logo page-inner__logo--registration page-inner__logo--top logo">
+    <img class="logo__img" width="250" height="56" src="images/dist/logo.png" alt="img" title="img" loading="lazy">
+  </a>
+
+  <div class="page-inner page-inner--registration">
+
+    <div class="container container--inner">
+      <div class="page-inner__wrapper">
+        <div class="page-inner__row">
+          <img class="page-inner__label header__label" width="250" src="images/dist/label.svg" alt="Больше, чем бизнес"
+            title="Больше, чем бизнес" loading="lazy">
+
+
+          <a href="/" class="page-inner__logo logo">
+            <img class="logo__img" width="250" height="56" src="images/dist/logo.png" alt="img" title="img"
+              loading="lazy">
+          </a>
+        </div>
+        <div class="registration">
+          <h1 class="registration__title">
+            Для регистрации введите<br>
+            ваши фамилию, имя, город<br>
+            и адрес корпоративной почты
+          </h1>
+          <form action="/" class="registration__form">
+            <div class="registration__inner">
+              <div class="registration__line">
+                <input name="name" id="name" type="text" class="registration__input" placeholder="Фамилия, имя"
+                  required>
+              </div>
+              <div class="registration__line">
+                <input name="name" id="name" type="text" class="registration__input" placeholder="Город" required>
+              </div>
+              <div class="registration__line">
+                <input name="name" id="name" type="text" class="registration__input registration__input--error"
+                  placeholder="Корпоративная почта" required>
+                <span class="registration__error">
+                  Неверный адрес почты. Попробуйте ещё раз!<br>
+                  Если не сработало, обратитесь к Ольге Кузнецовой oak19@europlan.ru
+                </span>
+              </div>
+            </div>
+
+            <button class="registration__submit" id="submit" name="submit" type="submit">
+              <span>Регистрация</span>
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery -->
+<!-- <script src="js/include/jquery.min.js"></script> -->
+
+<!-- Custom JS -->
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>

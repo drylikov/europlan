@@ -1,0 +1,31 @@
+// USER VARIABLES SECTION
+$accent: orange; // Accent Color
+$fontsize: 16px; // Body Font Size
+$textcolor: #000; // Text Color
+$lineheight: 1.65; // Document Line Height
+$userfont: Roboto, sans-serif; // User Font Family
+
+$blue: #005b95;
+$blue--dark: #025081;
+$orange: #f56920;
+
+// Breakpoint
+$tablet: 1199px;
+$mobile: 767px;
+$mobile-sm: 374px;
+
+@import "node_modules/bootstrap/dist/css/bootstrap";
+
+// FONTS LOAD SECTION
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format("woff2");
+  }
+}
+
+@include font("Inter", normal, 400, "../fonts/Inter-Regular.woff2");
+
+@include font("Inter", normal, 700, "../fonts/Inter-Bold.woff2");
